@@ -20050,43 +20050,39 @@ module.exports = React.createClass({
 		return React.createElement(
 			'nav',
 			null,
+			React.createElement('img', { src: '../../images/logo.png' }),
 			React.createElement(
-				'div',
-				{ className: 'brand' },
-				React.createElement('img', { className: 'logo', src: '../../images/logo.png' }),
-				React.createElement(
-					'span',
-					null,
-					'Fresh Jobs'
-				)
+				'h1',
+				null,
+				'Fresh Jobs'
 			),
 			React.createElement(
 				'div',
-				{ 'class': 'collapse navbar-collapse', id: 'bs-example-navbar-collapse-1' },
+				null,
 				React.createElement(
 					'a',
-					{ className: 'navLinks lastLink', href: '#' },
-					'for employers'
+					{ href: '#' },
+					'JOBS'
 				),
 				React.createElement(
 					'a',
-					{ className: 'navLinks', href: '#' },
-					'why fresh?'
+					{ href: '#' },
+					'COMPANIES'
 				),
 				React.createElement(
 					'a',
-					{ className: 'navLinks', href: '#' },
-					'Cities'
+					{ href: '#' },
+					'CITIES'
 				),
 				React.createElement(
 					'a',
-					{ className: 'navLinks', href: '#' },
-					'companies'
+					{ href: '#' },
+					'WHY FRESH?'
 				),
 				React.createElement(
 					'a',
-					{ className: 'navLinks', href: '#' },
-					'jobs'
+					{ href: '#' },
+					'FOR EMPLOYERS'
 				)
 			)
 		);
@@ -20096,12 +20092,14 @@ module.exports = React.createClass({
 },{"react":156}],161:[function(require,module,exports){
 'use strict';
 var React = require('react');
+
 var AppComponent = require('./components/AppComponent.js');
+var NavComponent = require('./components/NavComponent.js');
 var mainContent = document.getElementById('main-content');
 
 React.render(React.createElement(AppComponent, null), mainContent);
 
-},{"./components/AppComponent.js":157,"react":156}]},{},[161])
+},{"./components/AppComponent.js":157,"./components/NavComponent.js":160,"react":156}]},{},[161])
 
 
 //# sourceMappingURL=bundle.js.map
