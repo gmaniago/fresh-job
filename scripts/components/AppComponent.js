@@ -2,16 +2,14 @@
 
 var React = require('react');
 var NavComponent  = require('./NavComponent');
-var JobTipsComponent = require('./JobTipsComponent');
-var JobFormComponent = require('./JobFormComponent');
+var AddJobPageComponent = require('./AddJobPageComponent');
 
 module.exports = React.createClass ({
 	render: function() {
 		return (
 			<div>
 				<NavComponent />
-				<JobFormComponent />
-				<JobTipsComponent />
+				<AddJobPageComponent />
 			</div>
 			);
 	}

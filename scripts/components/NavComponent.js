@@ -8,14 +8,13 @@ module.exports = React.createClass({
 	            <img src="../../images/logo.png"/>
 	            <h1>Fresh Jobs</h1>
 	            <div>
-	                <a href="#">JOBS</a>
-	                <a href="#">COMPANIES</a>
-	                <a href="#">CITIES</a>
-	                <a href="#">WHY FRESH?</a>
-	                <a href="#">FOR EMPLOYERS</a>
+	                <a href="#jobs">JOBS</a>
+	                <a href="#companies">COMPANIES</a>
+	                <a href="#cities">CITIES</a>
+	                <a href="#fresh">WHY FRESH?</a>
+	                <a href="#employers">FOR EMPLOYERS</a>
 	            </div>
-	        </nav>
-			
+	        </nav>			
 				)
 	}
 });
